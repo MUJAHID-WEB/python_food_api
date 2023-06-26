@@ -14,7 +14,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',cast=bool)
 
-ALLOWED_HOSTS = ['localhost', 'food.mujahid7.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', 'mujahid7.pythonanywhere.com']
 
 
 # Application definition
